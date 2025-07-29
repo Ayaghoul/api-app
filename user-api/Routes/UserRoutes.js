@@ -4,7 +4,7 @@ const userController = require("../controllers/Usercontrollers");
 
 router.get("/", userController.Getusers);
 
-router.post("/", userController.adduser);
+router.post("/add", userController.adduser);
 
 router.put("/:id", userController.Update);
 
